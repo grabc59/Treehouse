@@ -27,7 +27,7 @@ var quiz = function() {
 
 
 var prize = '';
-if (score = 5) {
+if (score === 5) {
 	prize = 'a gold crown!';
 } else if (score >= 3) {
 	prize = 'a silver crown!';
